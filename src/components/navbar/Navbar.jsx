@@ -6,10 +6,10 @@ const Navbar = () => {
       <div className="wrapper">
         <span className='logospan'>Ramchandra Gawade</span>
         <div className="social">
-          <a href="#"><img src="/facebook.png" alt="" /></a>
-          <a href="#"><img src="/instagram.png" alt="" /></a>
-          <a href="#"><img src="/linkedin.png" alt="" /></a>
-          <a href="#"><img src="/dribbble.png" alt="" /></a>
+          <a href="#"><img src="/facebook.png" alt="facebook" /></a>
+          <a href="#"><img src="/insta.png" alt="instagram" /></a>
+          <a href="#"><img src="/linkedin.png" alt="linkedin" /></a>
+          <a href="#"><img src="/github.png" alt="github" /></a>
         </div>
       </div>
     </div>
