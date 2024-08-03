@@ -53,7 +53,22 @@ const Hero = () => {
 					</motion.h1>
 					<motion.div className="buttons" variants={textVariants}>
 						<button>See the latest works</button>
-						<button>Contact Me</button>
+						<motion.button
+							style={{ color: 'black', backgroundColor: 'white' }}
+							initial={{
+								opacity: 0.5,
+							}}
+							animate={{
+								opacity: 1,
+								transition: {
+									duration: 2,
+									type: 'keyframes',
+									repeat: Infinity,
+								},
+							}}
+						>
+							Contact Me
+						</motion.button>
 					</motion.div>
 					<motion.img
 						src="scroll.png"
