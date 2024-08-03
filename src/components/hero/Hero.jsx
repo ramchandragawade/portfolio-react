@@ -10,7 +10,7 @@ const textVariants = {
 		opacity: 1,
 		transition: {
 			duration: 1,
-			staggerChildren: 0.1,
+			staggerChildren: 0.1
 		},
 	},
 	scrollButton: {
@@ -56,14 +56,15 @@ const Hero = () => {
 						<motion.button
 							style={{ color: 'black', backgroundColor: 'white' }}
 							initial={{
-								opacity: 0.5,
+								opacity: 0.75,
 							}}
 							animate={{
 								opacity: 1,
 								transition: {
-									duration: 2,
-									type: 'keyframes',
+									duration: 0.7,
+									type: 'spring',
 									repeat: Infinity,
+									repeatType: 'mirror'
 								},
 							}}
 						>
