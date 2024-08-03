@@ -23,7 +23,7 @@ const itemVariants = {
     },
 };
 const SidebarLinks = () => {
-	const items = ['Homepage', 'Services', 'Projects', 'Contact', 'About'];
+	const items = ['Homepage', 'Skills & Experience', 'Projects', 'Contact', 'About'];
 	return (
 		<motion.div className="links" variants={variants}>
 			{items.map((itm) => (
