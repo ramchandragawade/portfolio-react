@@ -3,7 +3,6 @@ import Hero from './components/hero/Hero';
 import Navbar from './components/navbar/Navbar';
 import Parallax from './components/parallax/Parallax';
 import Skills from './components/skills/Skills';
-import Temp from './components/Temp';
 const App = () => {
 	return <div>
     <section id='Homepage'>
