@@ -29,14 +29,13 @@
             stroke: orange;
             position: absolute;
             margin: auto;
-            z-index: 10;
+            z-index: -1;
         }
 
         form {
             display: flex;
             flex-direction: column;
             gap: 20px;
-            z-index: 100;
             
             input, textarea {
                 padding: 20px;
